@@ -1,0 +1,8 @@
+When the Recursive function is at the end of any function it is called 
+Tail Recursion but,
+--return n*fact(n-1); is not tail recursion it is non_tail recursion
+the technique used to convert non_tail recursive to tail recursive is also called TAIL CALL ELIMINATION
+
+Tail call elimination used for avoiding overhead of system becauze then it has to save the previous function status then continue
+tail call elimination is possible only in modern computers
+in tail call elimination the when the last call is terminated whole program is terminated
