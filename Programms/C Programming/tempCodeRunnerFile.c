@@ -1,0 +1,1 @@
+fprintf(ptr, "%s", string);
